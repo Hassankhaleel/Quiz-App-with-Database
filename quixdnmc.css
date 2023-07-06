@@ -1,0 +1,149 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+}
+
+body {
+    background-color: #016398;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main {
+    /* background: rgb(0, 0, 0); */
+    /* background: rgb(34, 193, 195); */
+    background: linear-gradient(0deg, rgb(3, 3, 3) 0%, rgba(149, 238, 249, 1) 100%);
+    box-shadow: 14px 14px 1px 0px rgb(0, 0, 0);
+    height: auto;
+    width: 600px;
+    border-radius: 30px;
+
+}
+
+.main h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+.inner,
+h2,
+p {
+
+    margin: 15px;
+}
+
+.inner p {
+    cursor: pointer;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 20px;
+    padding: 15px;
+    /* line-height: 25px; */
+    /* border: 6px solid rgb(110, 1, 1); */
+}
+
+.inner p:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    /* background-color: #73d2fa; */
+}
+
+.btn_nxt {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: end;
+}
+
+.btn_nxt button {
+    outline: none;
+    color: rgb(52, 52, 52);
+    background-color: aliceblue;
+    width: 65px;
+    height: 35px;
+}
+
+.btn_nxt button:hover {
+    color: aliceblue;
+    transition: 0.2s;
+    background-color: #227094;
+}
+
+.active.active {
+    background: linear-gradient(0deg, rgb(22, 185, 153) 0%, rgb(48, 163, 188) 100%);
+}
+
+.crilce-main {
+    top: 60%;
+    left: 8%;
+    position: absolute;
+    z-index: -2;
+
+
+}
+
+.crilce-main2 {
+    top: 10%;
+    left: 75%;
+    position: absolute;
+    z-index: -2;
+}
+
+.circle {
+    /* border: 3px solid rgb(8, 65, 140); */
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 10px 4px 0px 2px rgb(0, 0, 0);
+    /* background: rgb(160, 252, 253); */
+    background: linear-gradient(0deg, rgb(27, 183, 185) 0%, rgb(255, 255, 255) 100%);
+
+
+
+}
+
+
+.score {
+    justify-content: center;
+    display: flex;
+}
+
+.score p {
+    background: linear-gradient(0deg, rgb(#016398) 0%, rgb(255, 255, 255) 100%);
+
+}
+
+.five {
+    font-size: 29px;
+}
+
+.scores {
+
+    position: relative;
+    top: 60px;
+    right: 190px;
+    display: flex;
+    justify-content: end;
+}
+
+.scores button {
+    cursor: pointer;
+    font-size: larger;
+    background: #0f898b;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    color: aliceblue;
+    position: absolute;
+    padding-top: 10px;
+    /* padding-right: 5px; */
+    padding-bottom: 5px;
+    border-radius: 60% 60% 60% 0%;
+    /* background-color: aliceblue; */
+    height: 60px;
+    width: 60px;
+}

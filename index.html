@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quixdnmc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet">
+</head>
+
+
+<body onload="onload()  ">
+    <div class=" main">
+        <div class="scores" id="gettingScroe">
+            <button><span style="font-size: small; ">Correct</span> <br></button><br>
+        </div>
+        <h1>QUIZ</h1>
+        <div class="inner">
+            <div class="score">
+                <p id="demo">MCQ's <span class="five" id="currentQuestion">5</span>/<span id="totalQuestions">10</span>
+                </p>
+            </div>
+            <h2>Q: <span id="question_element" class="h2" onclick="">
+                    CLICK NEXT BUTTON TO START QUIZ .
+                </span>
+            </h2>
+            <section id="para">
+                <p class="q1_p" id="q1_p2" onclick="putActiveClass(this) ; checkAnswer();calculateScore(this)"
+                    onclick="checkiing()">...</p>
+                <p class="q1_p" id="q1_p2" onclick="putActiveClass(this) ; checkAnswer() ;calculateScore(this)"
+                    onclick="">
+                    ...</p>
+                <p class="q1_p" id="q1_p2" onclick="putActiveClass(this) ; checkAnswer();calculateScore(this)"
+                    onclick="">...
+                </p>
+                <p class="q1_p" id="q1_p2" onclick="putActiveClass(this) ; checkAnswer();calculateScore(this)">...
+                </p>
+            </section>
+            <div class="btn_nxt" onclick="nextQuestion()" id="nextBTn">
+                <button>Next</button><br>
+            </div>
+
+
+        </div>
+        <div class="crilce-main">
+            <div class="circle">
+
+            </div>
+        </div>
+        <div class="crilce-main2">
+            <div class="circle">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="quidnmic.js" type="module"></script>
+    <!-- <script src="addquiz.html" type="module"></script> -->
+</body>
+
+</html>

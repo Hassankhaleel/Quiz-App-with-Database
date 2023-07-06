@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="quixdnmc.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet"> -->
+</head>
+
+<body style="background-color: rgb(88, 88, 88);">
+    <h1>
+        ADD QUIZ
+    </h1>
+    <div>
+
+        <textarea name="" id="question" cols="30" rows="10">
+add question
+</textarea>
+    </div>
+    <div>
+        <br>
+        <input type="text" placeholder="enter option" id="option"><button onclick="addOption()">add </button>
+    </div>
+    <div>
+        <li id="optionParent">
+
+        </li>
+    </div>
+    <div>
+        <p id="CORRECTANSER">CORRECT ANSER</p>
+    </div>
+    <div>
+        <button id="sumbitQuestion" onclick="sumbitQuestion()">Sumbit Question</button>
+    </div>
+    <script src="addquiz.js" type="module"></script>
+</body>
